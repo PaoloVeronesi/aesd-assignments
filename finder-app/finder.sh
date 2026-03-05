@@ -17,4 +17,5 @@ fi
 num_files=$(find "$directory" -type f | wc -l)
 num_matches=$(grep -r "$searchstr" "$directory" | wc -l)
 
+
 echo "The number of files are $num_files and the number of matching lines are $num_matches"
