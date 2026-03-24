@@ -51,8 +51,8 @@ fi
 # --------------------------
 # Clean previous build and compile writer C application
 # --------------------------
-make clean
-make
+#make clean
+#make
 
 # Write files using C writer
 for i in $(seq 1 $NUMFILES)
