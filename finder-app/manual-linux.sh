@@ -86,6 +86,8 @@ make ARCH=arm64 CROSS_COMPILE=${CROSS_COMPILE} CONFIG_PREFIX=${OUTDIR}/rootfs in
 echo "=== AFTER INSTALL ==="
 file ${OUTDIR}/rootfs/bin/busybox
 
+
+
 # TODO: Make and install busybox
 cd ${OUTDIR}/rootfs
 
