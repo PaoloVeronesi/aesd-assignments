@@ -80,11 +80,11 @@ make distclean 2>/dev/null
 make ARCH=arm64 defconfig 2>/dev/null
 sed -i 's/CONFIG_TC=y/CONFIG_TC=n/' .config
 make ARCH=arm64 CROSS_COMPILE=${CROSS_COMPILE} 2>/dev/null
-echo "=== CHECK BUSYBOX ARCH ==="
-file busybox
+#echo "=== CHECK BUSYBOX ARCH ==="
+#file busybox
 make ARCH=arm64 CROSS_COMPILE=${CROSS_COMPILE} CONFIG_PREFIX=${OUTDIR}/rootfs install 2>/dev/null
-echo "=== AFTER INSTALL ==="
-file ${OUTDIR}/rootfs/bin/busybox
+#echo "=== AFTER INSTALL ==="
+#file ${OUTDIR}/rootfs/bin/busybox
 
 
 
