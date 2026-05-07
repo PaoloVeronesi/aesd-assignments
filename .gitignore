@@ -1,4 +1,17 @@
 *.o
+<<<<<<< HEAD
 build/
 .vscode/
 *.log
+=======
+writer
+Test_*_Runner.c
+build/
+crosstool-ng
+aesd-build
+.vscode/
+test.sh.log
+aesdsocket
+server/aesdsocket
+server/valgrind-out.txt
+>>>>>>> assignments-base/assignment6
